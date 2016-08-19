@@ -1096,7 +1096,7 @@ Other Style Guides
     export default AirbnbStyleGuide.es6;
 
     // best
-    import { es6 } from './AirbnbStyleGuide';
+    import es6 from './AirbnbStyleGuide';
     export default es6;
     ```
 
@@ -1121,7 +1121,7 @@ Other Style Guides
     ```javascript
     // bad
     // filename es6.js
-    export { es6 as default } from './airbnbStyleGuide';
+    export { es6 as default } from './AirbnbStyleGuide';
 
     // good
     // filename es6.js
